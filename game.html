@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Game Assignment</title>
+    <script src="code.js"></script>
+    <link href="main.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 id="heading"></h1>Guess That Time! </h1> 
+    </header>
+
+    <h2> What time does a hippie have dinner?</h2>
+    <input type="text" id="userInput" placeholder="Enter time (HH:MM)">
+    <button onclick="checkAnswer()">Submit</button>
+    <p id="message"></p>
+
+    <button id="restartBtn" onclick="restartGame()" style="display:none;">Play Again</button>
+
+</body>
+</html>
