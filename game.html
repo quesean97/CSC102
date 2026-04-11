@@ -3,20 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScript Game Assignment</title>
+  <!--time of game-->
+  <title>JavaScript Game Assignment</title>
+  <!--adding in the javascript code for game-->
     <script src="code.js"></script>
+    <!--link to style sheet -->
     <link href="main.css" rel="stylesheet">
 </head>
 <body>
     <header>
+        <!--Title-->
         <h1 id="heading"></h1>Guess That Time! </h1> 
     </header>
-
+<!-- gives prompt of how to play the game/answer question-->
     <h2> What time does a hippie have dinner?</h2>
+    <!--Gives place to allow for user input, describes the format of what is expected as a response-->
     <input type="text" id="userInput" placeholder="Enter time (HH:MM)">
+    <!--adds submission button that will check answer and respond accordingly-->
     <button onclick="checkAnswer()">Submit</button>
+    <!--input messages based on response-->
     <p id="message"></p>
-
+<!--adds what parameters will the game be able to restart
+    -->
     <button id="restartBtn" onclick="restartGame()" style="display:none;">Play Again</button>
 
 </body>
