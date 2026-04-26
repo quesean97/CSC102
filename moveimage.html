@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Source for the JavaScript file-->
+    <script src = "moveimage.js"></script>
+    <!--link to the css file -->
+    <link href="main.css" rel="stylesheet">
+    <!--Title of the page -->
+    <title>Bounce Image</title>
+</head>
+<body>
+    <!--Heading of the page-->
+    <h1>Let's Bounce the Ball</h1>
+    <!-- places buttons that are labeled start and stop and does action according to JS file -->
+    <button onclick = "startInterval()" id = "startMove">Start</button>
+    <button onclick = "stopInterval()" id = "stopMove">Stop</button>
+    <!-- places the image in a set location-->
+    <img src="Ball.jpg"id = "imgBall" style = "position:absolute" left: 100px; top: 100px; width: 200px;/>
+    <!-- displays a message that correlates to the location of the moving image-->
+    <div id = "msg"></div>
+</body>
+</html>

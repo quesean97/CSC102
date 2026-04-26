@@ -9,9 +9,19 @@ selector{
 */
 
 body{
-    background-color: red
+    background-color: rgb(96, 99, 97)
     
 
+}
+button {
+            padding: 10px 20px;
+            background-color: #e51212;
+            color: white;
+            border: none;
+        }
+
+h1 {
+    color:aqua
 }
 
 nav{
