@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Quesean Parker-->
+    <!--Source for the JavaScript file-->
+    <script src = "frustration.js"></script>
+    <!--link to the css file -->
+    <link href="zxc.css" rel="stylesheet">
+    <!--Title of the page -->
+    <title>Multiple processes</title>
+</head>
+<body>
+    <h1>Don't fret let's check that list!</h1>
+    <!--each button is configured to have a specific function and labelled what it should do-->
+    <button id = "show" onclick = "showArray()">Show Cart</button>
+    <button id = "addFront" onclick = "addFront()">Add to Front</button>
+    <button id = "addBack" onclick = "addBack()">Add to Back</button> 
+    <button id = "remFront" onclick = "remFront()"> Remove from Front </button>
+    <button id = "remBack" onclick = "remBack()">Remove From back</button>
+    <br>
+    <br>
+    <button id = "find" onclick = "findItem()">Find if item is in the list</button>
+    <!--produces text that shows the list with its alterations if any-->
+    <p id = "result"></p>
+<!--hidden form that shows up when one of the "add.." buttons clicked holds an input box for text so the user can add to list-->
+    <form id = "formAdd" onsubmit = "return false" hidden>
+        Item to add: <input type = "text" id = "newItem"/>
+        <input type = "submit" onclick = "addSpecific()"/>
+    </form>
+</body>
+</html>
