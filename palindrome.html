@@ -1,23 +1,34 @@
 <!DOCTYPE html>
+<!-- Quesean Parker-->
 <html lang="en">
+    <!--link source to javascript file -->
 <script src = "palindrome.js"></script>
     <link href="main.css" rel="stylesheet">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--title of web page seen in the tab location-->
     <title>Palindrome?</title>
 </head>
 <body>
+    <!--Heading of the web page-->
     <h1>Is it a Palindrome?</h1>
 
+    <!--start a form that doesnt reset the page when -->
     <form id= "strInput" onsubmit = "return false"> 
-    Enter a Palindrome: <input type = "text" id = "initString"/>
+<!--adds a box for user to input text-->
+    Enter a Palindrome: <input type = "text" id = "initStr"/>
         
+    <!-- when submit button is clicked javascript will run the strings() to evaluate the user text-->
         <input type = "submit" onclick = "strings()"/>
     
     </form>
+    <!--creates space vertically from the box -->
     <br>
+    <!--used to give the user instruction and display if the answer is correct or not -->
     <p id = "resultString"> What word can you think of ? </p>
+    <!--image insert to the page-->
 <img src="think.jpg" alt="think">
+
 </body>
 </html>
