@@ -3,41 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+   <!--Quesean Parker--> 
    <!--PAGE TITLE-->
-    <title>SECURE ACCESS</title>
-
+    <title>Validation</title>
     <!--Link to Javascript File-->
 <script src="stringcode.js" ></script>
 
  <!--link to style sheet -->
     <link href="string.css" rel="stylesheet">
-
 </head>
-<title>Access Verification</title>
+<nav>
+     <a href="index.html">Main Page</a>
+</nav>
+
 <body>
     <!--Heading for the page-->
     <h1>Enter Verification Info And Unlock Secret Message :D!</h1>
 
     <!--Allows for all inputs to Submit with only one button-->
-<form id="userForm" onsubmit="return validateForm()"></form>
+    <form id="userForm" onsubmit= "return validateForm()">
 
     <!--First Name Input-->
-    <input type="text" id="firstName" placeholder="First Name" required>
-
+    First Name: <input type="text" id= "fName" >
+    <br>
     <!--Last Name Input-->
-    <input type="text" id="lastName" placeholder="Last Name" required>
-
+    Last Name: <input type="text" id= "lName" >
+    <br>
     <!--Zip Code Input-->
-    <input type="text" id="zipCode" placeholder="Zip Code" required>
-
+    Zip Code: <input type="text" id= "zCode" >
     <!-- Add a submit button-->
     <br>
-    <button type="submit">Unlock Message</button>
-  
-   
-</form>
+    <br>
+    <button type="submit">Unlock Message</button> 
+    </form>
 
     <!-- Display Output/ message-->
     <div id="output"></div>
+    <img src="good.jpg" id ="goodImg" hidden>
+    
 </body>
 </html>

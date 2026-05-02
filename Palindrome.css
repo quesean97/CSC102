@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(96, 99, 97);
+    text-align: center;   
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+
+}
+input{font-size: 20px;
+padding: 8px;
+background-color: rgb(28,157,237);}
+
+form{padding-top: 10;}
+
+Img{
+    width: 300px;
+
+}
+h1{color: rgb(28,157,237);
+padding-right: 170px;}
+
+nav{
+    background-color: rgb(28, 157, 237);
+    height: fit-content;
+    width: fit-content;
+    float: left;
+    padding: 15px 20px;
+    line-height: 15px;
+    font-size: large;
+    border-radius: 15px;
+    margin: 70px;
+    margin-top: 40px;
+
+}
+a {
+    
+    padding: 4px 10px;
+    margin: 5px;
+    color: #000000;
+}

@@ -6,18 +6,53 @@
     <meta charset="UTF-8">
    
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--link to js file-->
+
  <script src = "Sound.js"></script>
+ <!--link to css file-->
     <link href="main.css" rel="stylesheet">
  <title>Play a Sound</title>
 </head>
+<!--add in a navigation menu-->
+<nav>  <a href="index.html">Home</a>
+        <br>
+        <br>
+        <br>
+        <a href="boards.html">Boards</a>
+        <br>
+        <br>
+        <br>
+        <a href="newgame.html">Game</a>
+        <br>
+        <br>
+        <br>
+        <a href="3progcncpt.html">List</a>
+        <br>
+        <br>
+        <a href="moveimage.html">Meme<a>
+        <br>
+        <br>
+        <br>
+        <a href="palindrome.html">Palindrome</a>
+        <br>
+        <br>
+        <br>
+        <a href="createtable.html">Table</a>
+        <br>
+        <br>
+        <br>
+        <a href="strings.html">User I/V</a>
+</nav>
 <body>
     <h1> Have You Heard A Space Shuttle?</h1>
     <audio controls>
 <!--locates the file so audio can play-->
         <source src = "us-lab-background.mp3" type = "audio/mpeg">Shuttle Noise></audio><source>
     </audio>
-    <!--Alternative buttons to play sound through javascript -->
+    <!--Alternative buttons to play sound through javascript includes an image -->
     <button onclick = "play()" >Play Shuttle Sound</button>
     <button onclick = "stop()" >Stop Shuttle Sound</button>
+    <br>
+    <img id = "rockIt" src="rocket.jpg" hidden>
 </body>
 </html>

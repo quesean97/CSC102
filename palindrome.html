@@ -3,17 +3,55 @@
 <html lang="en">
     <!--link source to javascript file -->
 <script src = "palindrome.js"></script>
-    <link href="main.css" rel="stylesheet">
+    <link href="Palindrome.css" rel="stylesheet">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--title of web page seen in the tab location-->
     <title>Palindrome?</title>
 </head>
-<body>
-    <!--Heading of the web page-->
+
+<header>
+    <!--add in a navigation menu-->
+    <nav>
+        <a href="final.html">Home</a>
+        <br>
+        <br>
+        <br>
+        <a href="boards.html">Boards</a>
+        <br>
+        <br>
+        <br>
+        <a href="newgame.html">Game</a>
+        <br>
+        <br>
+        <br>
+        <a href="3progcncpt.html">List</a>
+        <br>
+        <br>
+        <a href="moveimage.html">Meme<a>
+        <br>
+        <br>
+        <br>
+        <a href="Sound.html">Sound</a>
+        <br>
+        <br>
+        <br>
+        <a href="createtable.html">Table</a>
+        <br>
+        <br>
+        <br>
+        <a href="strings.html">User I/V</a></nav>
+<!--Heading of the web page-->
     <h1>Is it a Palindrome?</h1>
 
+</header>
+<body>
+    
+<br>
+<br>
+<br>    
+<br>
     <!--start a form that doesnt reset the page when -->
     <form id= "strInput" onsubmit = "return false"> 
 <!--adds a box for user to input text-->
@@ -28,7 +66,8 @@
     <!--used to give the user instruction and display if the answer is correct or not -->
     <p id = "resultString"> What word can you think of ? </p>
     <!--image insert to the page-->
-<img src="think.jpg" alt="think">
+<img id= "thinkImg" src="think.jpg" hidden>
+<img id="greatJob" src="greatjob.png" hidden>
 
 </body>
 </html>
